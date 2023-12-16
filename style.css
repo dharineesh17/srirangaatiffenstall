@@ -1,0 +1,223 @@
+:root{
+    --yellow: #FFC54D;
+    --green: #53BF9D;
+    --red: crimson;
+    --white: whitesmoke;
+    --black: rgb(053, 052, 052); 
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    font-size: 1.25em;
+    padding: 1em;
+    background-color: black;
+    flex-wrap: wrap;
+    row-gap: 1em;
+    margin: 0.2em;
+}
+header a{
+    color: var(--yellow);
+    text-decoration: none;
+    min-width: 160px;
+}
+header h2 a i, header nav a i{
+    color: whitesmoke;
+}
+nav a{
+    flex: 1;
+    text-decoration: none;
+    color: var(--yellow);
+    text-align: center;
+}
+#logo{
+    flex: 4;
+    min-width: 320px;
+    
+}
+nav{
+    flex: 3;
+    display: flex;
+    align-items: center;
+}
+nav a:hover{
+    color: var(--green);
+}
+.landing{
+    background-image: url("imgs/bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    color: var(--white);
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: center;
+    padding: 2em;
+    align-items: center;
+}
+.maintext section{
+    margin-top: 0.75em;
+    text-align: center;
+}
+button{
+    width: auto;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: 0.7em;
+    background-color: var(--green);
+    border: 1px solid var(--green);
+}
+button a{
+    text-decoration: none;
+    color: var(--white);
+}
+.tagline1{
+    color: var(--red);
+    font-size: 3em;
+    font-weight: bolder;
+    font-family: cursive;
+}
+.tagline2{
+    color: var(--green);
+    font-size: 1.55em;
+    font-weight: bolder;
+}
+.about{
+    width: 30%;
+    color: white;
+    align-items:  left;
+    font-size: large;
+    font-weight: bold;
+    background-color: #0E2954;
+}   
+.tagline3{
+    color: rgb(12, 228, 12);
+    font-weight: bolder;
+}
+.tagline4{
+    color: var(--yellow);
+    font-weight: bold;
+}
+
+.maintext .tagline2{
+    background-color: white;
+}
+#menuheading, #locheading{
+    background: var(--black); 
+    color: var(--red);
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.menu{
+    display: grid;
+    /*grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    background: var(--black);
+    color: var(--white);    
+        
+}
+.breakfast, .brunch, .lunch{
+    border-bottom: 1px solid; 
+}
+.menu th{
+    color: var(--green);
+    font-size: larger;
+}
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.8em;
+}
+.menu td:nth-child(1){
+    flex: 1;
+    justify-self: left;
+}
+.menu td:nth-child(2){
+    justify-self: right;
+}
+h2{
+    margin: 0;
+}
+table{
+    width: 100%;
+    padding: 1em;
+}
+.brunch{
+    grid-row: span 2;
+}
+.location{
+    background: var(--black);
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--white);  
+    text-align: center;
+    align-items: center;
+}
+.location h2{
+    color: var(--green);
+    margin-bottom: 0.8em;
+}
+.location section{
+    flex: 1;
+    padding: 1em;
+    min-width: 320px;
+}
+.dir a{
+    text-decoration: none;
+    color: var(--white);
+}
+footer{
+    background-color: black;
+    color: var(--white);
+    padding-left: 0.25em 1em;
+    text-align: center;
+    border: solid;
+    display: flex;
+}
+footer table tr{
+    row-gap: 5em;
+}
+.linkedin{
+    text-decoration: none;
+    color: var(--green);
+}
+.linkedin:hover{
+    color: var(--white);
+}
+.txtcen{
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    .mapapi{
+        width: auto;
+    }
+    .logo{
+        font-size: x-large;
+        text-align: center;
+    }
+    button{
+        width: auto;
+    }
+    .about{
+        width: 97%;
+    }
+    .landing{
+        height: 80vh;
+    }
+    .maintext{
+        height: 62vh;
+    }
+}
+
+/*
+Author: Dharineesh K S
+date: 16-12-2023
+*/
