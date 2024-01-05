@@ -46,7 +46,7 @@ nav a:hover{
     color: var(--green);
 }
 .landing{
-    background-image: url("imgs/bg.jpeg");
+    background-image: url("./assests/images/bg.jpeg");
     background-size: cover;
     background-position: center;
     height: 90vh;
@@ -185,7 +185,6 @@ footer table tr{
     row-gap: 5em;
 }
 .linkedin{
-    text-decoration: none;
     color: var(--green);
 }
 .linkedin:hover{
