@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Visit Sri Rangaa Tiffen Stall Restaurant for authentic South Indian cuisine. Enjoy a range of delicacies from Dosa, Idli, to vada. Dine-in or pickup available. Call now to order!">
+    <meta name="keywords" content="South Indian food, vegetarian food, Dosa, Idli, dine-in, takeaway, restaurant, Sri Rangaa Tiffen Stall Restaurant, best South Indian restaurant, vegetarian cuisine, Tamil food">
+    <meta name="author" content="Dharineesh K S, dharineesh17">
+    <meta name="robots" content="index, follow">
+    <title>Order Now Coming Soon | Sri Rangaa Tiffen Stall</title>
+    <link rel="icon" href="./assests/logo.png">
+    <meta name="description" content="The 'Order Now' feature at Sri Rangaa Tiffen Stall is coming soon. Stay tuned for updates!">
+    <!-- <meta http-equiv="refresh" content="10;url=index.html"> Redirects to home page in 10 seconds -->
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            
+            color: #252027;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            background-color: #dc3545;
+        }
+        .container {
+            text-align: center;
+            padding: 2rem;
+            background: rgba(255, 255, 255);
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            max-width: 600px;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #dc3545;
+        }
+        p {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            
+        }
+        .countdown {
+            font-size: 1.2rem;
+            color: #53BF9D;
+        }
+        a {
+            color: #53BF9D;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #FFC54D;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container glass">
+        <h1>Order Now Coming Soon</h1>
+        <p>Our exciting <span style="color: #dc3545;"><b>'Order Now'</b></span> feature is currently under development.</p>
+        <p>Stay tuned for updates!</p>
+        <p class="countdown">Redirecting to the homepage in <span id="countdown" class="countdown" style="color: #dc3545; font-weight:bolder;">10</span> seconds...</p>
+        <p>If you're not redirected, click <a href="index.html">here</a> to go back to the home page.</p>
+    </div>
+    <script>
+        let countdown = 10;
+        const countdownElement = document.getElementById('countdown');
+        const interval = setInterval(() => {
+            countdown--;
+            countdownElement.textContent = countdown;
+
+            if (countdown === 0) {
+                clearInterval(interval);
+                window.location.href = './index.html'; // Redirect to home page
+            }
+        }, 1000);
+    </script>
+</body>
+</html>
