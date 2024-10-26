@@ -1,0 +1,94 @@
+{
+  "breakfast": [
+    {
+      "name": "Vada",
+      "price": 6
+    },
+    {
+      "name": "Idli",
+      "price": 6
+    },
+    {
+      "name": "Sambar Vada",
+      "price": 15
+    },
+    {
+      "name": "Pongal",
+      "price": 35
+    },
+    {
+      "name": "Dosa",
+      "price": 35
+    },
+    {
+      "name": "Rava Dosa",
+      "price": 35
+    },
+    {
+      "name": "Mudakathan Dosa",
+      "price": 35
+    },
+    {
+      "name": "Uttapam",
+      "price": 45
+    },
+    {
+      "name": "Podi Dosa",
+      "price": 45
+    },
+    {
+      "name": "Gee Dosa",
+      "price": 45
+    },
+    {
+      "name": "Gee Rava Dosa",
+      "price": 45
+    },
+    {
+      "name": "Gee Mudakathan Dosa",
+      "price": 45
+    },
+    {
+      "name": "Gee Onion Dosa",
+      "price": 50
+    },
+    {
+      "name": "Gee Podi Dosa",
+      "price": 50
+    } 
+  ],
+  "lunch": [
+    {
+      "name": "Vada",
+      "price": 6
+    },
+    {
+      "name": "Curd Rice",
+      "price": 35
+    },
+    {
+      "name": "Lemon Rice",
+      "price": 35
+    },
+    {
+      "name": "Tomato Rice",
+      "price": 35
+    },
+    {
+      "name": "Turmarin rice",
+      "price": 35
+    },
+    {
+      "name": "Mini Meals",
+      "price": 50
+    },
+    {
+      "name": "Meals",
+      "price": 70
+    },
+    {
+      "name": "Meals Parcel",
+      "price": 75
+    }
+  ]
+}

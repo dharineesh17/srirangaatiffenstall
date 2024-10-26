@@ -1,0 +1,171 @@
+/* General Styling */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+.logo {
+    width: 75px;
+    height: 75px;
+}
+
+.veg-symbol {
+    width: 30px;
+    height: 30px;
+}
+
+#scroll-progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    background-color: crimson;
+    z-index: 1000;
+}
+
+/* Celebration Popup */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: whitesmoke;
+    border: 2px solid #53BF9D;
+    padding: 20px;
+    z-index: 1001;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+}
+
+/* Glassmorphism Effect */
+.glass {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+}
+
+.headings {
+    text-align: center;
+    color: #dc3545;
+}
+.restaurant-name {
+    /* font-size: 2.5rem; */
+    font-weight: bold;
+    color: white;
+}
+
+.sub-text {
+    /* font-size: 1.25rem; */
+    color:#53BF9D
+}
+/* CTA Button */
+.cta-btn {
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+  }
+.cta-btn:hover {
+    background-color: #FFC54D;
+}
+.cta-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+/* header styling */
+.header2-button {
+    display: none;
+}
+
+header {
+    background-color: black;
+}
+
+
+@media (max-width: 620px) {
+    .header1-button {
+        display: none;
+    }
+    .header2-button {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    .veg-symbol {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+
+/* Card Styling */
+.card {
+    margin-bottom: 20px;
+}
+.gallery-img {
+    width: 200px;
+    height: 200px;
+}
+
+#map {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+/* Footer Styling */
+footer {
+    color: whitesmoke;
+}
+
+footer a {
+    color: #FFC54D;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #53BF9D;
+}
+tr:nth-child(odd):hover {
+    background-color: rgba(220,53,69);
+    color: white;
+}
+tr:nth-child(even):hover {
+    background-color: rgba(255,197,77);
+    color: white;
+}
+thead {
+    background-color: #FFC54D;
+}
+
+.textJustify{
+    text-align: justify;
+}
+
+/* Marquee Container */
+.news-marquee {
+    /* background-color: #FFC54D; */
+    color: rgb(53, 52, 52);
+    /* padding: 10px; */
+    font-weight: bold;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    white-space: nowrap;
+}
+.top-header {
+    text-align: end;
+}
+.card:hover {
+    transform: scale(1.10);
+}
