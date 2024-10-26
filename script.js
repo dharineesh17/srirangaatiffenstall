@@ -88,7 +88,7 @@ function send() {
 
 // Initialize EmailJS
 (function(){
-    var key = env.key;
+    var key = process.env.KEY;
     emailjs.init({
       publicKey: key,
     });
@@ -96,8 +96,8 @@ function send() {
 
 // Send Email using EmailJS
 function sendEmail(name, email, message, alertText, type) {
-    var service = env.ser;
-    var template = env.tem;
+    var service = process.env.SER;
+    var template = process.env.TEM;
     emailjs.send(service, template, {
       from_name: name,
       to_name: "Sridhar",
@@ -117,7 +117,7 @@ function sendEmail(name, email, message, alertText, type) {
 
 
 var websiteVersion = "2.0";
-var lastUpdated = new Date(2024, 9, 23);
+var lastUpdated = new Date(2024, 9, 26);
 document.getElementById("v").textContent = websiteVersion;
 document.getElementById("lu").textContent = lastUpdated.toLocaleString('en-US', {
   year: 'numeric',
