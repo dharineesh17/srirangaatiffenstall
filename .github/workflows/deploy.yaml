@@ -25,7 +25,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./ # Deploy directly from the root directory
+        publish_dir: ./ 
 
     - name: Set environment variables for EmailJS
       env:
