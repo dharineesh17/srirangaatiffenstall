@@ -10,6 +10,10 @@
     },
     {
       "name": "Sambar Vada",
+      "price": 12
+    },
+    {
+      "name": "Sambar Vada Parcel",
       "price": 15
     },
     {
@@ -30,11 +34,11 @@
     },
     {
       "name": "Uttapam",
-      "price": 45
+      "price": 35
     },
     {
       "name": "Podi Dosa",
-      "price": 45
+      "price": 35
     },
     {
       "name": "Gee Dosa",
@@ -50,11 +54,11 @@
     },
     {
       "name": "Gee Onion Dosa",
-      "price": 50
+      "price": 45
     },
     {
       "name": "Gee Podi Dosa",
-      "price": 50
+      "price": 45
     } 
   ],
   "lunch": [
